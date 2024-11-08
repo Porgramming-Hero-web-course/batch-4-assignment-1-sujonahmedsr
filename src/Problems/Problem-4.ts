@@ -16,19 +16,17 @@ function calculateShapeArea(area: Area) {
         return areaOfCircle
     } else if (area.shape === 'rectangle') {
         return area.width * area.height
-    }else{
-        return `Please provide correct information`
     }
 }
 
-// const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
-// console.log(circleArea);
+const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
+console.log(circleArea);
 
-// const rectangleArea = calculateShapeArea({
-//     shape: "rectangle",
-//     width: 4,
-//     height: 6,
-// });
-// console.log(rectangleArea);
+const rectangleArea = calculateShapeArea({
+    shape: "rectangle",
+    width: 4,
+    height: 6,
+});
+console.log(rectangleArea);
 
 
