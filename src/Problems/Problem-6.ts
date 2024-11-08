@@ -7,6 +7,7 @@ interface Profile {
 function updateProfile (profile: Profile, update: Partial<Profile>){
     return {...profile, ...update}
 }
-const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
 
-// console.log(updateProfile(myProfile, {age: 26}));
+// const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
+
+// console.log(updateProfile(myProfile, {email: 'sujon@example.com'}));

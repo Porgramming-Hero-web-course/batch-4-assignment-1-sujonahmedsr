@@ -8,4 +8,4 @@ function countWordOccurrences(sentence: string, word: string) : number {
     }
     return number
 }
-// console.log(countWordOccurrences("I love typescript", "Typescript"));
+// console.log(countWordOccurrences("I love typescript typescript", "Typescript"));
