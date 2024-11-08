@@ -1,4 +1,4 @@
-function getProperty <T, X extends keyof T> (value: T, property: X){
+function getProperty <T, X extends keyof T> (value: T, property: X): T[X]{
     return value[property]
 }
 
